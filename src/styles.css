@@ -1,0 +1,96 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo-card {
+    display: inline-block;
+    width: 350px;
+    }
+  
+  .photo {
+    width: 350px;
+    height: 250px;
+  }
+  
+  .info {
+    margin: 10px 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-form {
+    background-color: rgb(55, 69, 124);
+  }
+  
+  .input {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+  
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    padding: 5px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    font-size: 12px;
+    background-color: rgb(54, 54, 92);
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    }
+  
+  
+  
+  .load-more {
+   margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    }
+  
